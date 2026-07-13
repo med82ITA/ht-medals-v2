@@ -1,0 +1,86 @@
+[
+  {
+    "id": "NT_WORLD_CUP",
+    "order": 1,
+    "code": "NT_WORLD_CUP",
+    "name": "World Cup",
+    "shortName": "WC",
+    "teamType": "NT",
+    "category": "World",
+    "continent": null,
+    "enabled": true,
+    "active": true
+  },
+  {
+    "id": "U21_WORLD_CUP",
+    "order": 2,
+    "code": "U21_WORLD_CUP",
+    "name": "U21 World Cup",
+    "shortName": "U21 WC",
+    "teamType": "U21",
+    "category": "World",
+    "continent": null,
+    "enabled": true,
+    "active": true
+  },
+  {
+    "id": "EUROPEAN_CHAMPIONSHIP",
+    "order": 3,
+    "code": "EUROPEAN_CHAMPIONSHIP",
+    "name": "European Championship",
+    "shortName": "Euro",
+    "teamType": "NT",
+    "category": "Continental",
+    "continent": "Europe",
+    "enabled": true,
+    "active": true
+  },
+  {
+    "id": "AMERICAN_CUP",
+    "order": 4,
+    "code": "AMERICAN_CUP",
+    "name": "American Cup",
+    "shortName": "America",
+    "teamType": "NT",
+    "category": "Continental",
+    "continent": "America",
+    "enabled": true,
+    "active": true
+  },
+  {
+    "id": "AFRICAN_CUP",
+    "order": 5,
+    "code": "AFRICAN_CUP",
+    "name": "African Cup",
+    "shortName": "Africa",
+    "teamType": "NT",
+    "category": "Continental",
+    "continent": "Africa",
+    "enabled": true,
+    "active": true
+  },
+  {
+    "id": "ASIAN_OCEANIAN_CUP",
+    "order": 6,
+    "code": "ASIAN_OCEANIAN_CUP",
+    "name": "Asian & Oceanian Cup",
+    "shortName": "Asia/Oceania",
+    "teamType": "NT",
+    "category": "Continental",
+    "continent": "Asia/Oceania",
+    "enabled": true,
+    "active": true
+  },
+  {
+    "id": "NATIONS_CUP",
+    "order": 7,
+    "code": "NATIONS_CUP",
+    "name": "Nations Cup",
+    "shortName": "NC",
+    "teamType": "NT",
+    "category": "International",
+    "continent": null,
+    "enabled": true,
+    "active": true
+  }
+]

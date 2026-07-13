@@ -1,0 +1,12 @@
+[
+  {
+    "id": "S001",
+    "number": 1,
+    "enabled": true
+  },
+  {
+    "id": "S002",
+    "number": 2,
+    "enabled": true
+  }
+]

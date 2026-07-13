@@ -5,6 +5,7 @@ import {
   BarChart3,
 } from "lucide-react";
 
+import { Hero } from "../components/ui/Hero";
 import { PageHeader } from "../components/ui/PageHeader";
 import { InfoCard } from "../components/ui/InfoCard";
 
@@ -38,16 +39,7 @@ export const Home = () => {
 
   return (
     <div className="space-y-12">
-      <section className="rounded-2xl bg-gradient-to-r from-green-700 to-green-600 px-8 py-14 text-center text-white shadow-lg">
-        <h1 className="mb-4 text-5xl font-extrabold">
-          HT Medals
-        </h1>
-
-        <p className="mx-auto max-w-3xl text-lg text-green-100">
-          The unofficial archive dedicated to Hattrick National Team
-          competitions, medals, rankings and historical statistics.
-        </p>
-      </section>
+      <Hero />
 
       <PageHeader
         title="Explore"
@@ -66,14 +58,17 @@ export const Home = () => {
       </section>
 
       <section className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
-        <h2 className="mb-4 text-2xl font-bold">
+        <h2 className="mb-4 text-2xl font-bold text-gray-800">
           About HT Medals
         </h2>
 
         <p className="leading-7 text-gray-600">
-          HT Medals is an unofficial project that collects the complete
-          history of Hattrick National Team competitions, providing
-          rankings, medal tables and historical records in one place.
+          HT Medals is an unofficial project dedicated to preserving and
+          presenting the complete history of Hattrick National Team
+          competitions. The goal is to provide the community with a
+          modern, fast and comprehensive archive featuring medal tables,
+          rankings, Hall of Fame, statistics and historical records for
+          National Teams and U21 competitions.
         </p>
       </section>
     </div>
