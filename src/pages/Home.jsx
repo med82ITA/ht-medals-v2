@@ -1,4 +1,12 @@
-import { Trophy, Medal, Globe, BarChart3 } from "lucide-react";
+import {
+  Trophy,
+  Medal,
+  Globe,
+  BarChart3,
+} from "lucide-react";
+
+import { PageHeader } from "../components/ui/PageHeader";
+import { InfoCard } from "../components/ui/InfoCard";
 
 export const Home = () => {
   const sections = [
@@ -30,7 +38,6 @@ export const Home = () => {
 
   return (
     <div className="space-y-12">
-      {/* Hero */}
       <section className="rounded-2xl bg-gradient-to-r from-green-700 to-green-600 px-8 py-14 text-center text-white shadow-lg">
         <h1 className="mb-4 text-5xl font-extrabold">
           HT Medals
@@ -42,40 +49,22 @@ export const Home = () => {
         </p>
       </section>
 
-      {/* Feature cards */}
-      <section>
-        <h2 className="mb-6 text-3xl font-bold text-gray-800">
-          Explore
-        </h2>
+      <PageHeader
+        title="Explore"
+        description="Browse every section of HT Medals and discover the complete history of Hattrick National Teams."
+      />
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {sections.map((section) => {
-            const Icon = section.icon;
-
-            return (
-              <div
-                key={section.title}
-                className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
-              >
-                <Icon
-                  size={36}
-                  className="mb-4 text-ht-green"
-                />
-
-                <h3 className="mb-2 text-xl font-semibold">
-                  {section.title}
-                </h3>
-
-                <p className="text-sm leading-6 text-gray-600">
-                  {section.description}
-                </p>
-              </div>
-            );
-          })}
-        </div>
+      <section className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        {sections.map((section) => (
+          <InfoCard
+            key={section.title}
+            title={section.title}
+            description={section.description}
+            icon={section.icon}
+          />
+        ))}
       </section>
 
-      {/* About */}
       <section className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold">
           About HT Medals
