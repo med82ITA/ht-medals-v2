@@ -1,0 +1,13 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+ 
+:root { 
+  --color-primary: #2d8b46; 
+  --color-secondary: #1f5a2e; 
+  --color-bg: #f5f5f5; 
+} 
+ 
+body { 
+  @apply bg-ht-gray text-ht-text font-sans; 
+} 
